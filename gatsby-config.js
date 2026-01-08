@@ -51,10 +51,5 @@ module.exports = {
         disableMdxRenderer: true,  // 禁用客户端渲染
       },
     },
-    {
-      resolve: `gatsby-plugin-netlify@latest`,
-      options: {
-      },
-    },
   ],
 };
