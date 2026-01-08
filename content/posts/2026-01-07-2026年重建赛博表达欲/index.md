@@ -1,5 +1,5 @@
 ---
-title: 2026年重建赛博表达欲
+title: 新年重建赛博表达欲
 author: nevercry
 date: 2026-01-08
 hero: images/r0000620.jpg
