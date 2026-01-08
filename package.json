@@ -13,7 +13,7 @@
     "@narative/gatsby-theme-novela": "^2.0.0",
     "gatsby": "^3.0.0", 
     "gatsby-plugin-mdx": "^2.12.0",
-    "gatsby-plugin-image": "^2.0.0", 
+    "gatsby-plugin-image": "^3.0.0",
     "gatsby-plugin-sharp": "^3.0.0", 
     "gatsby-source-filesystem": "^3.0.0", 
     "gatsby-transformer-sharp": "^3.0.0",  
