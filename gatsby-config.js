@@ -45,11 +45,5 @@ module.exports = {
         icon: `src/assets/favicon.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        disableMdxRenderer: true,  // 禁用客户端渲染
-      },
-    },
   ],
 };
