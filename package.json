@@ -10,21 +10,21 @@
     "proxy": "netlify-cms-proxy-server"
   },
   "dependencies": {
-    "@narative/gatsby-theme-novela": "^2.0.0",  // 主题版本
-    "gatsby": "^3.0.0",  // Gatsby 3.x+，兼容 MDX
-    "gatsby-plugin-mdx": "^3.0.0",  // 用于处理 MDX 文件
-    "gatsby-plugin-image": "^2.0.0",  // 处理图片
-    "gatsby-plugin-sharp": "^3.0.0",  // 用于图像优化
-    "gatsby-source-filesystem": "^3.0.0",  // 用于文件源数据
-    "gatsby-transformer-sharp": "^3.0.0",  // 用于图片的 GraphQL 查询
-    "gatsby-plugin-netlify": "^3.0.0",  // Netlify 配置优化
-    "gatsby-plugin-netlify-cms": "^4.0.0",  // 配置 Netlify CMS
-    "react": "^17.0.0",  // React 17，主题通常基于该版本
-    "react-dom": "^17.0.0",  // React DOM
-    "gatsby-transformer-remark": "^3.0.0",  // 仅在需要使用 markdown 的情况下才启用
-    "web-streams-polyfill": "^3.0.0"  // 修复流的错误问题，已在某些步骤里提到
+    "@narative/gatsby-theme-novela": "^2.0.0",
+    "gatsby": "^3.0.0", 
+    "gatsby-plugin-mdx": "^3.0.0", 
+    "gatsby-plugin-image": "^2.0.0", 
+    "gatsby-plugin-sharp": "^3.0.0", 
+    "gatsby-source-filesystem": "^3.0.0", 
+    "gatsby-transformer-sharp": "^3.0.0",  
+    "gatsby-plugin-netlify": "^3.0.0", 
+    "gatsby-plugin-netlify-cms": "^4.0.0",  
+    "react": "^17.0.0",  
+    "react-dom": "^17.0.0", 
+    "gatsby-transformer-remark": "^3.0.0",  
+    "web-streams-polyfill": "^3.0.0"  
   },
   "devDependencies": {
-    "gatsby-plugin-sharp": "^3.0.0"  // 确保图像处理功能正常
+    "gatsby-plugin-sharp": "^3.0.0"
   }
 }
