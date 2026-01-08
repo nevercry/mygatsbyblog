@@ -45,10 +45,17 @@ module.exports = {
         icon: `src/assets/favicon.png`,
       },
     },
+    `gatsby-plugin-mdx`,  // MDX 配置
+    `gatsby-source-filesystem`,  // 文件源数据
     {
-      resolve: `gatsby-plugin-netlify-cms`,
+      resolve: `gatsby-plugin-image`,  // 图片处理
       options: {
+        // 相关配置
       },
     },
+    `gatsby-plugin-sharp`,  // 图片优化
+    `gatsby-transformer-sharp`,  // 图像转换
+    `gatsby-plugin-netlify-cms`,  // CMS 集成
+    `gatsby-plugin-netlify`,  // Netlify 部署优化
   ],
 };
