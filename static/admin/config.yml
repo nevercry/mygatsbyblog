@@ -15,7 +15,7 @@ collections:
     create: true
     delete: true
     path: "{{slug}}/index"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     media_folder: "images"
     public_folder: "./images"
     fields:
